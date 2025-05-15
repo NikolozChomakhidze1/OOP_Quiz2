@@ -2,6 +2,25 @@ package oop.q2;
 
 import java.util.ArrayList;
 import java.util.List;
+/**
+ * This program performs a transformation based on two predefined lists:
+ * - list1: a List of integers
+ * - list2: a List of strings
+ * 
+ * The program generates a third list, list3, by applying a simple pattern:
+ * For each integer value v in list1, it calculates an index as:
+ *      index = v + (v - 1)
+ * and uses this index to retrieve an element from list2 to place into list3.
+ * 
+ * The program handles index-out-of-bounds situations gracefully.
+ * It is designed to work with any valid lists of integers and strings, not just the predefined values.
+ * 
+ * Package: oop.q2
+ * 
+ * Usage:
+ *  Run the Main class, which prints the generated list3 to the console.
+ */
+
 
 
 public class Main {
